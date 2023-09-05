@@ -1,6 +1,7 @@
 {
     "tasks": {
-        "index": "deno run --check --unstable -A ./src/index.ts"
+        "index": "deno run --check --unstable -A ./src/index.ts",
+        "test": "deno test --check --unstable -A"
     },
     "exclude": [
         "**/*.test.ts"
